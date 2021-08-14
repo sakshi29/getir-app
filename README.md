@@ -48,7 +48,7 @@ https://thawing-garden-76297.herokuapp.com
 1. Getting documents from mongoDB
 
     ```
-    curl -X POST 'https://thawing-garden-76297.herokuapp.com/documents' \         
+    curl -X POST 'https://thawing-garden-76297.herokuapp.com/documents' \
     --header 'Content-Type: application/json' \
     --data-raw '{
         "startDate": "2015-01-26",
