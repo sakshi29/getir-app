@@ -41,14 +41,14 @@
 
 This application is also being served on Heroku under the domain.
 
-https://boiling-bastion-20752.herokuapp.com
+https://thawing-garden-76297.herokuapp.com
 
 ## Sample Requests
 
 1. Getting documents from mongoDB
 
     ```
-    curl -X POST 'https://boiling-bastion-20752.herokuapp.com/documents' \         
+    curl -X POST 'https://thawing-garden-76297.herokuapp.com/documents' \         
     --header 'Content-Type: application/json' \
     --data-raw '{
         "startDate": "2015-01-26",
@@ -61,7 +61,7 @@ https://boiling-bastion-20752.herokuapp.com
 2. Add a record to In-Memory Database
 
     ```
-    curl -X POST 'https://boiling-bastion-20752.herokuapp.com/in-memory' \
+    curl -X POST 'https://thawing-garden-76297.herokuapp.com/in-memory' \
     --header 'Content-Type: text/plain' \
     --data-raw '{
         "key":"active-tabs",
@@ -72,5 +72,5 @@ https://boiling-bastion-20752.herokuapp.com
 3. Fetch a record from In-Memory Database
 
     ```
-    curl -X GET 'https://boiling-bastion-20752.herokuapp.com/in-memory?key=active-tabs'
+    curl -X GET 'https://thawing-garden-76297.herokuapp.com/in-memory?key=active-tabs'
     ```
