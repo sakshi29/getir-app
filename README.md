@@ -12,12 +12,14 @@
      $ git clone git@github.com:sakshi29/getir-test.git
     ```
 
-2. To Run all test cases in the repo. Use command
+2. To run all test cases in the repo, use command
+
     ```
      $ go test ./...
     ```
 
-3. To Run aaplication. Use command inside cmd/getir-app
+3. To run application, use command inside `cmd/getir-app`
+
     ```
     $ go build
     $ ./getir-app
@@ -26,6 +28,7 @@
 
     $ go run app.go    
     ```
+
     It will start serving the application on http://localhost:9000
 
     To check your application is up and running.
@@ -33,11 +36,13 @@
     ```
     curl http://localhost:9000/healthcheck
     ```
+
 ## Heroku
 
 This application is also being served on Heroku under the domain.
 
 https://boiling-bastion-20752.herokuapp.com
+
 ## Sample Requests
 
 1. Getting documents from mongoDB
